@@ -3,8 +3,10 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npx tsc",
         "start": "ts-node index.ts"
     },
     "author": "",
@@ -15,7 +17,7 @@
     },
     "dependencies": {
         "axios-date-reviver": "^1.0.0-beta.2",
-        "bigcommerce-api-client": "^0.6.4",
+        "bigcommerce-api-client": "^0.6.11",
         "ts-node": "^10.9.1"
     }
 }
