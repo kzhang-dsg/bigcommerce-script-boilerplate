@@ -20,6 +20,7 @@
                 "ts-node/esm"
             ],
             "program": "${workspaceFolder}/index.ts",
+            "preLaunchTask": "tsc: build - tsconfig.json",
             "outFiles": [
                 "${workspaceFolder}/dist/**/*.js"
             ]
