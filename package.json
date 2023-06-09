@@ -17,7 +17,7 @@
     },
     "dependencies": {
         "axios-date-reviver": "^1.0.0-beta.2",
-        "bigcommerce-api-client": "^0.7.6",
+        "bigcommerce-api-client": "^0.7.9",
         "ts-node": "^10.9.1"
     }
 }
